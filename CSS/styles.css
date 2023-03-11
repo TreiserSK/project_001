@@ -1,0 +1,39 @@
+* {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: #D8D8D8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+menu {
+    /* Добавим фоновый цвет для нашего меню */
+    background: #33CCFF;
+    /* Выставим высоту */
+    height: 100px;
+    /* Уберем точки у li элементов */
+    list-style-type: none;
+    /* добавим отступ, чтобы крайние значения меню не были прижаты в плотную к границам меню */
+    padding: 10px;
+    /* Используем flexbox */  
+    display: flex;
+    justify-content: space-between;
+    /* Дополнительно сделаем вертикальное выравнивание */
+    align-items: center;
+}
+/*
+.menu-item {
+    display: inline-block;
+    font-size: 3em;
+    border: 5px solid #FF8000;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: auto;
+    justify-content: space-between;
+}
+*/
+
+
+.menu-item:hover {
+    background-color: #A4A4A4;
+}
